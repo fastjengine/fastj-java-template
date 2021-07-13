@@ -19,7 +19,7 @@ _Note: this project uses Java 16 and Gradle 7._
     ```
 
 
-## Distributing as Executable
+## Distributing Installer/Executable
 
 1. Build the program:
     ```bash
@@ -29,6 +29,7 @@ _Note: this project uses Java 16 and Gradle 7._
     ```bash
    ./gradlew jpackage 
    ```
+3. The executable and installer files will be found in `build/jpackage`.
 
 _Having trouble using `gradlew`? Read [this][Terminals Are Different]._
 
