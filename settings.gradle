@@ -1,0 +1,3 @@
+/* Feel free to change this to whatever your project will be named! */
+rootProject.name = 'FastJ Java Template'
+include(':')
