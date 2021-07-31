@@ -1,7 +1,7 @@
 # FastJ Java Template Program
 
 ## Requirements
-- [Java 16 JDK][jdk-link]
+- [Java 11 JDK or Higher][jdk-link]
 - Basic understanding of Java
 
 
@@ -64,7 +64,7 @@ Check out the following links to learn how to use FastJ:
 Please view the [build.gradle](build.gradle) file -- it contains general instructions for modifying the base example.
 
 
-[jdk-link]: https://adoptopenjdk.net/?variant=openjdk16 "Java 16 JDK Download"
+[jdk-link]: https://adoptopenjdk.net/?variant=openjdk16 "Java JDK Download"
 [Terminals Are Different]: https://gist.github.com/lucasstarsz/9bbc306f8655b916367d557043e498ad "Terminals Access Files Differently"
 [example-programs-readme-link]: http://fastj.me/tree/main/src/example "FastJ Examples"
 [documentation-link]: https://javadoc.io/doc/io.github.lucasstarsz.fastj/fastj-library "FastJ API Documentation"
