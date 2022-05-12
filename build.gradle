@@ -11,7 +11,7 @@ plugins {
      * this, too. */
     id 'application'
     /* To create distributable files for your game, we use this jlink plugin. */
-    id 'org.beryx.jlink' version '2.24.4'
+    id 'org.beryx.jlink' version '2.25.0'
 }
 
 /* Your project's group name goes here.
@@ -44,9 +44,9 @@ repositories.maven {
 repositories.mavenCentral()
 
 /* The dependency for FastJ, the game engine this template depends on. */
-dependencies.implementation('com.github.fastjengine:FastJ:1.6.0-SNAPSHOT-3')
+dependencies.implementation('com.github.fastjengine:FastJ:1.6.0')
 /* We'll stick with the simplest logging option for now -- you can change it however you need. */
-dependencies.implementation('org.slf4j:slf4j-simple:2.0.0-alpha3')
+dependencies.implementation('org.slf4j:slf4j-simple:2.0.0-alpha5')
 
 
 /* JLink is used to configure the executables and other distributions for your project. */

@@ -64,7 +64,7 @@ Check out the following links to learn how to use FastJ:
 Please view the [build.gradle](build.gradle) file -- it contains general instructions for modifying the base example.
 
 
-[jdk-link]: https://adoptopenjdk.net/?variant=openjdk16 "Java JDK Download"
+[jdk-link]: https://adoptium.net/?variant=openjdk17 "Java JDK Download"
 [Terminals Are Different]: https://gist.github.com/lucasstarsz/9bbc306f8655b916367d557043e498ad "Terminals Access Files Differently"
 [example-programs-readme-link]: http://fastj.me/tree/main/src/example "FastJ Examples"
 [documentation-link]: https://javadoc.io/doc/io.github.lucasstarsz.fastj/fastj-library "FastJ API Documentation"
