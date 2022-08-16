@@ -4,7 +4,7 @@ import tech.fastj.engine.FastJEngine;
 import tech.fastj.graphics.display.FastJCanvas;
 import tech.fastj.graphics.display.RenderSettings;
 import tech.fastj.graphics.game.Text2D;
-
+import tech.fastj.math.Pointf;
 import tech.fastj.systems.control.SimpleManager;
 
 public class Game extends SimpleManager {
@@ -15,13 +15,14 @@ public class Game extends SimpleManager {
         canvas.modifyRenderSettings(RenderSettings.Antialiasing.Enable);
 
         /* A very simple Text2D object, welcoming you to FastJ! */
-        Text2D helloFastJText = Text2D.fromText("Hello, FastJ 1.6.0!");
-        helloFastJText.translate(canvas.getCanvasCenter());
-        drawableManager.addGameObject(helloFastJText);
-    }
+        Text2D helloFastJ = Text2D.fromText("Hello, FastJ 1.7.0-SNAPSHOT-1!");
 
-    @Override
-    public void update(FastJCanvas canvas) {
+        /* Translate our hello text to the center of the screen */
+        Pointf center = canvas.getCanvasCenter();
+        helloFastJ.setTranslation(center.subtract(helloFastJ.width() / 2f, helloFastJ.height() / 2f));
+
+        /* Render hello fastj text */
+        drawableManager().addGameObject(helloFastJ);
     }
 
     public static void main(String[] args) {

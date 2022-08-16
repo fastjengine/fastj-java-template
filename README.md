@@ -1,17 +1,20 @@
 # FastJ Java Template Program
 
 ## Requirements
-- [Java 11 JDK or Higher][jdk-link]
-- Basic understanding of Java
 
+- [Java 18 JDK or Higher][jdk-link]
+- Basic understanding of Java
 
 ## Initial Setup
 
 ### Download the Template
+
 You have a few options for getting the template:
 
-#### Create from Template
-1. Click the "Use This Template" button at the top of this project. Leave everything on the project creation screen as is, and hit "Create repository from template".
+#### Create from Template - Recommended for Beginners
+
+1. Click the "Use This Template" button at the top of this project. Leave everything on the project creation screen as
+   is, and hit "Create repository from template".
    ![image](https://user-images.githubusercontent.com/64715411/125542737-6eb23326-d07a-4a28-89af-dcacb4f01cac.png)
    ![image](https://user-images.githubusercontent.com/64715411/125543010-b960404a-ad40-431c-ab31-c097f52574bb.png)
 
@@ -21,13 +24,15 @@ You have a few options for getting the template:
       ![image](https://user-images.githubusercontent.com/64715411/125545310-c62610da-1eb5-4e80-86b3-352b1ea16612.png)
 
 #### Clone the template directly
+
 1. Clone the repository via terminal: `git clone https://github.com/lucasstarsz/fastj-java-template`
 
 #### Downloading the latest release
+
 Download the archive (.zip file, or tar.gz file) from https://github.com/lucasstarsz/fastj-java-template/releases/latest
 
-
 ### Running the Program
+
 1. Build the program:
     ```bash
     ./gradlew build
@@ -37,10 +42,10 @@ Download the archive (.zip file, or tar.gz file) from https://github.com/lucasst
     ./gradlew run
     ```
 
-
 ## General Usage
 
 ### Generating Installer/Executable
+
 1. Build the program:
     ```bash
     ./gradlew build
@@ -53,18 +58,22 @@ Download the archive (.zip file, or tar.gz file) from https://github.com/lucasst
 
 _Having trouble using `gradlew`? Read [this][Terminals Are Different]._
 
-
 ## Learning FastJ
+
 Check out the following links to learn how to use FastJ:
+
 - [Example Programs][example-programs-readme-link]
 - [FastJ Documentation][documentation-link]
 
-
 ## Configuring the Project Variables
+
 Please view the [build.gradle](build.gradle) file -- it contains general instructions for modifying the base example.
 
 
-[jdk-link]: https://adoptium.net/?variant=openjdk17 "Java JDK Download"
+[jdk-link]: https://adoptium.net/temurin/releases?version=18 "Java JDK Download"
+
 [Terminals Are Different]: https://gist.github.com/lucasstarsz/9bbc306f8655b916367d557043e498ad "Terminals Access Files Differently"
-[example-programs-readme-link]: http://fastj.me/tree/main/src/example "FastJ Examples"
-[documentation-link]: https://javadoc.io/doc/io.github.lucasstarsz.fastj/fastj-library "FastJ API Documentation"
+
+[example-programs-readme-link]: https://github.com/fastjengine/FastJ/tree/1.7.0-SNAPSHOT-1/examples "FastJ Examples"
+
+[documentation-link]: https://javadoc.io/doc/io.github.lucasstarsz.fastj/fastj-library/1.7.0-SNAPSHOT-1 "FastJ API Documentation"
